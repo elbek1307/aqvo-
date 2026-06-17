@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "login": "Bog'lanish"
+  },
+  "modal": {
+    "title": "Bog'lanish",
+    "desc": "Ma'lumotlaringizni qoldiring, siz bilan bog'lanamiz",
+    "name": "Ismingiz",
+    "phone": "+998 (99) 000-00-00",
+    "btn": "Yuborish"
+  }
+}

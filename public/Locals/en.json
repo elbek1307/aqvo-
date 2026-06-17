@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "login": "Contact"
+  },
+  "modal": {
+    "title": "Contact us",
+    "desc": "Leave your details and we will get back to you",
+    "name": "Your name",
+    "phone": "+998 (99) 000-00-00",
+    "btn": "Send"
+  }
+}
