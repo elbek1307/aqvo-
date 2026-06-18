@@ -179,6 +179,7 @@ const Sect_foo_farhod = () => {
                 id="message"
                 name="message"
                 placeholder={t('form.message')}
+                required
                 value={formData.message}
                 onChange={handleChange}
               ></textarea>
