@@ -7,7 +7,7 @@ import hero1 from "./image/hero1.png";
 import hero2 from "./image/hero2.png"; 
 
 function Hero() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   
   const [formData, setFormData] = useState({

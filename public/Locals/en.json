@@ -43,5 +43,20 @@
     "select_service": "Select type of service",
     "message": "Message",
     "submit_button": "Send"
+  },
+
+    "about": {
+    "slide1": {
+      "title": "ABOUT AQVO BRAND",
+      "text": "Aqvo is a brand that embodies quality and integrity, offering products with a fresh taste and modern design through an innovative approach. Aqvo was the first in Uzbekistan to establish sauce production based on the principles of high quality and halal standards, earning customer trust."
+    },
+    "slide2": {
+      "title": "OUR MISSION",
+      "text": "Combining quality, integrity, and modern technologies in every product to provide our customers with the best experience. That is our main goal."
+    },
+    "slide3": {
+      "title": "OUR VALUES",
+      "text": "The Aqvo brand, based on naturalness, halal principles and innovation, combines traditional taste with modern design in every product. Customer trust is our greatest asset."
+    }
   }
 }
