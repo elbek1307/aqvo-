@@ -45,8 +45,7 @@
     "submit_button": "Yuborish"
   },
 
-
-    "about": {
+  "about": {
     "slide1": {
       "title": "AQVO BRENDI HAQIDA",
       "text": "Aqvo – sifat va halollikni o'zida mujassam etgan, innovatsion yondashuv orqali mahsulotlarini yangicha ta'm va zamonaviy dizaynda taqdim etuvchi brend. O'zbekistonda birinchi bo'lib jiz mahsulotlarini yuqori sifat va halollik tamoyillariga asoslangan holda ishlab chiqarishni yo'lga qo'ygan Aqvo, mijozlar ishonchini qozonib kelmoqda."
@@ -58,6 +57,11 @@
     "slide3": {
       "title": "BIZNING QADRIYATLARIMIZ",
       "text": "Tabiiyllik, halollik va innovatsiyaga asoslangan Aqvo brendi har bir mahsulotida an'anaviy ta'mni zamonaviy dizayn bilan birlashtiradi. Mijozlar ishonchi — bizning eng katta boyligimiz."
+    },
+
+    "Footer": {
+      "Izlagan": "Siz izlagan ta'm, sifat, poklik va o‘zgachalik... Barchasi bir nuqtada jamlanib, “Aqvo”'ga aylanadi!",
+      "Barcha": "© Barcha huquqlar himoyalangan"
     }
   }
 }
