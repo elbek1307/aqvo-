@@ -150,4 +150,8 @@
   .nav_btn {
     display: none;
   }
+
+  .nav_logo{
+    margin-left: 30px;
+  }
 }

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import "./Navbar.css";
-import logo from "./logo.svg";
+import logo from "./Logo.svg";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
