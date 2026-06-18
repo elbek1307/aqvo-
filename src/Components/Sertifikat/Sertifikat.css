@@ -1,0 +1,122 @@
+.sert {
+  padding: 60px 0;
+  background-image: url("../../assets/ser_bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sert_title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+
+.sert_card {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.sert_img {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  display: block;
+}
+
+.sert_card:hover .sert_img {
+  border-color: var(--btn1-color);
+  transform: translateY(-4px);
+}
+
+
+.sert_slider .slick-prev { left: -10px; }
+.sert_slider .slick-next { right: -10px; }
+
+.sert_slider .slick-prev::before,
+.sert_slider .slick-next::before {
+  font-size: 28px;
+  color: var(--btn1-color);
+}
+
+.sert_modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.sert_modal_inner {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+}
+
+.sert_modal_close {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.sert_modal_close:hover {
+  opacity: 0.8;
+}
+
+.sert_modal_img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+
+@media (max-width: 1024px) {
+  .sert {
+    background-attachment: scroll;
+  }
+
+  .sert_img {
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sert {
+    padding: 40px 0;
+  }
+
+  .sert_title {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .sert_img {
+    height: 260px;
+  }
+}
