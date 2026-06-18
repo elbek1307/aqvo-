@@ -18,7 +18,7 @@ const Sect_foo_farhod = () => {
     message: ""
   });
 
-  const [status, setStatus] = useState(null); // "sending" | "success" | "error"
+  const [status, setStatus] = useState(null);
   const [statusText, setStatusText] = useState("");
 
   const handleChange = (e) => {
@@ -92,7 +92,6 @@ const Sect_foo_farhod = () => {
 
         <div className="sect_foo_right">
           <form onSubmit={handleSubmit}>
-            {/* Row 1: 3 fields */}
             <div className="form_group">
               <label htmlFor="first_name">{t('form.first_name')}</label>
               <input
@@ -132,7 +131,6 @@ const Sect_foo_farhod = () => {
               />
             </div>
 
-            {/* Row 2: 3 fields */}
             <div className="form_group">
               <label htmlFor="telegram_username">{t('form.telegram_username')}</label>
               <input
@@ -175,7 +173,6 @@ const Sect_foo_farhod = () => {
               </select>
             </div>
 
-            {/* Row 3: textarea spans 3 columns */}
             <div className="form_group form_group_span3">
               <label htmlFor="message">{t('form.message')}</label>
               <textarea
@@ -187,14 +184,12 @@ const Sect_foo_farhod = () => {
               ></textarea>
             </div>
 
-            {/* Status message */}
             {(status === "success" || status === "error") && (
               <div className={`sect_foo_form_status ${status} form_group_status`}>
                 {statusText}
               </div>
             )}
 
-            {/* Button spans 3 columns */}
             <div className="form_group form_group_btn">
               <button type="submit" disabled={status === "sending"}>
                 {status === "sending" ? "Yuborilmoqda..." : t('form.submit_button')}
