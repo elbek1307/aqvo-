@@ -43,5 +43,9 @@
     "select_service": "Xizmat turini tanlang",
     "message": "Xabar",
     "submit_button": "Yuborish"
+  },
+  "Footer":{
+    "Izlagan": "Siz izlagan ta'm, sifat, poklik va o‘zgachalik... Barchasi bir nuqtada jamlanib, “Aqvo”'ga aylanadi!",
+    "Barcha": "© Barcha huquqlar himoyalangan"
   }
 }

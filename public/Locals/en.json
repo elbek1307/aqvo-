@@ -43,5 +43,9 @@
     "select_service": "Select type of service",
     "message": "Message",
     "submit_button": "Send"
-  }
+  },
+  "Footer": {
+  "Izlagan": "The taste, quality, purity, and uniqueness you've been looking for... Everything comes together at one point to become “Aqvo”!",
+  "Barcha": "© All rights reserved"
+}
 }
