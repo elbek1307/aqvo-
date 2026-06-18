@@ -28,5 +28,20 @@
       "message": "Message",
       "submit": "Submit"
     }
+  },
+  "heading": "EXPERIENCE A NEW TASTE WITH \"AQVO\".",
+  "description": "The Aqvo brand invites you to discover new tastes. Our products offer a new, unique taste to every consumer through a quality and innovative approach. Aqvo is not just a taste, but an opportunity to experience a new journey with healthy and halal products. Discover the new taste with us and feel the real quality!",
+  "contact_title": "Our contact phone numbers:",
+  "tel_1": "Tel: +998957724444",
+  "tel_2": "Tel: +998996440101",
+  "form": {
+    "first_name": "First name",
+    "last_name": "Last name",
+    "phone_number": "Phone number",
+    "telegram_username": "Telegram username",
+    "region": "Region",
+    "select_service": "Select type of service",
+    "message": "Message",
+    "submit_button": "Send"
   }
 }

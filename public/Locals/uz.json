@@ -28,5 +28,20 @@
       "message": "Xabar",
       "submit": "Yuborish"
     }
+  },
+  "heading": "\"AQVO\" BILAN YANGICHA TA'MNI HIS ETING.",
+  "description": "Aqvo brendi sizni yangi ta'mlarni kashf etishga taklif qiladi. Bizning mahsulotlarimiz har bir iste'molchiga sifatli va innovatsion yondashuv orqali yangi, o'ziga xos ta'mni taqdim etadi. Aqvo - bu nafaqat ta'm, balki sog'lom va halol mahsulotlar bilan yangi tajribani his qilish imkoniyati. Yangi ta'mni biz bilan birga kashf eting va haqiqiy sifatni his eting!",
+  "contact_title": "Bog'lanish uchun telefon raqamlarimiz:",
+  "tel_1": "Tel: +998957724444",
+  "tel_2": "Tel: +998996440101",
+  "form": {
+    "first_name": "Ismingiz",
+    "last_name": "Familiyangiz",
+    "phone_number": "Telefon raqamingiz",
+    "telegram_username": "Telegram username",
+    "region": "Hudud",
+    "select_service": "Xizmat turini tanlang",
+    "message": "Xabar",
+    "submit_button": "Yuborish"
   }
 }
