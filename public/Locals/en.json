@@ -60,8 +60,8 @@
     }
   },
 
-  "Footer": {
-    "Izlagan": "The taste, quality, purity, and uniqueness you've been looking for... Everything comes together at one point to become “Aqvo”!",
-    "Barcha": "© All rights reserved"
+  "footer": {
+    "text": "Found what you were looking for? Get in touch with us!",
+    "copy": "© 2024 AQVO. All rights reserved."
   }
 }
