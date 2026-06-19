@@ -12,7 +12,7 @@
   background-color: var(--bg-dark-red);
   display: block; 
   box-sizing: border-box;
-  padding-top: 80px; 
+  padding-top: 150px; 
   overflow: hidden;
 }
 .marquee-container {
