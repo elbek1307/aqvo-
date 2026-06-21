@@ -2,7 +2,7 @@
     display: flex;
     background-color: #8B1414;
     justify-content: space-around;
-    padding: 30px;
+    padding: 50px;
 }
 .logo{
     width: 160px;
@@ -29,6 +29,10 @@
     width: 260px;
     border-radius: 20px;
 }
+.btn-instagram:hover{
+    background-color: white;
+    border-color: #8B1414;
+}
 .btn-telegram{
     background-color: #8B1414;
     border: 1px solid;
@@ -37,11 +41,21 @@
     width: 260px;
     border-radius: 20px;
 }
+.btn-telegram:hover{
+    background-color: white;
+    border-color: #8B1414;
+}
 .link-instagram{
     color: white;
 }
 .link-telegram{
     color: white;
+}
+.link-telegram:hover{
+    color: #8B1414;
+}
+.link-instagram:hover{
+    color: #8B1414;
 }
 .products{
     display: flex;
@@ -52,5 +66,45 @@
     width: 300px;
     height: 250px;
     border-radius: 20px;
+}
+.products {
+    overflow: hidden;
+    width: 100%;
+}
+
+.products-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
+    gap: 20px;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.m1{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.mini-products {
+    overflow: hidden;
+    width: 100%;
+    background-color: #8B1414;
+    padding: 20px;
+}
+
+.mini-products-track {
+    display: flex;
+    width: max-content;
+    animation: scrollMini 15s linear infinite reverse;
+    gap: 25px;
+}
+
+@keyframes scrollMini {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }
 

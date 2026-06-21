@@ -9,6 +9,17 @@ import p4 from '../Middle/image/product4.jpg'
 import p5 from '../Middle/image/product5.jpg'
 import p6 from '../Middle/image/product6.jpg'
 
+import m1 from '../Middle/image/mini1.jpg'
+import m2 from '../Middle/image/mini2.jpg'
+import m3 from '../Middle/image/mini3.jpg'
+import m4 from '../Middle/image/mini4.jpg'
+import m5 from '../Middle/image/mini5.jpg'
+import m6 from '../Middle/image/mini6.jpg'
+import m7 from '../Middle/image/mini7.jpg'
+import m8 from '../Middle/image/mini8.jpg'
+import m9 from '../Middle/image/mini9.jpg'
+
+
 
 const middle = () => {
   return (
@@ -25,12 +36,47 @@ const middle = () => {
         </div>
 
         <div className='products'>
-            <img className='p1' src={p1} alt="alt" />
-            <img className='p1' src={p2} alt="alt" />
-            <img className='p1' src={p3} alt="alt" />
-            <img className='p1' src={p4} alt="alt" />
-            <img className='p1' src={p5} alt="alt" />
-            <img className='p1' src={p6} alt="alt" />
+         <div className='products-track'>
+        <img className='p1' src={p1} alt="alt" />
+        <img className='p1' src={p2} alt="alt" />
+        <img className='p1' src={p3} alt="alt" />
+        <img className='p1' src={p4} alt="alt" />
+        <img className='p1' src={p5} alt="alt" />
+        <img className='p1' src={p6} alt="alt" />
+        {/* again */}
+        <img className='p1' src={p1} alt="alt" />
+        <img className='p1' src={p2} alt="alt" />
+        <img className='p1' src={p3} alt="alt" />
+        <img className='p1' src={p4} alt="alt" />
+        <img className='p1' src={p5} alt="alt" />
+        <img className='p1' src={p6} alt="alt" />
+        </div>
+        </div>
+
+        {/* another mini products */}
+
+        <div className='mini-products'>
+            <div className='mini-products-track'>
+                <img className='m1' src={m1} alt="alt" />
+                <img className='m1' src={m2} alt="alt" />
+                <img className='m1' src={m3} alt="alt" />
+                <img className='m1' src={m4} alt="alt" />
+                <img className='m1' src={m5} alt="alt" />
+                <img className='m1' src={m6} alt="alt" />
+                <img className='m1' src={m7} alt="alt" />
+                <img className='m1' src={m8} alt="alt" />
+                <img className='m1' src={m9} alt="alt" />
+                {/* again */}
+                   <img className='m1' src={m1} alt="alt" />
+                <img className='m1' src={m2} alt="alt" />
+                <img className='m1' src={m3} alt="alt" />
+                <img className='m1' src={m4} alt="alt" />
+                <img className='m1' src={m5} alt="alt" />
+                <img className='m1' src={m6} alt="alt" />
+                <img className='m1' src={m7} alt="alt" />
+                <img className='m1' src={m8} alt="alt" />
+                <img className='m1' src={m9} alt="alt" />
+            </div>
         </div>
     </>
   )
