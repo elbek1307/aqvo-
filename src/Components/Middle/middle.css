@@ -1,3 +1,4 @@
+
 .lahza{
     display: flex;
     background-color: #8B1414;
@@ -5,8 +6,8 @@
 }
 .logo{
     width: 160px;
-    margin-left: 250clearpx;
-    margin-top: -24px;
+    margin-left: 250px;
+    margin-top: -25px;
 }
 .links{
     display: flex;
@@ -41,4 +42,15 @@
 }
 .link-telegram{
     color: white;
+}
+.products{
+    display: flex;
+    background-color: #8B1414;
+    gap: 10px;
+    margin-top: 20px;
+}
+.p1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
 }
