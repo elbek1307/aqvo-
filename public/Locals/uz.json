@@ -34,6 +34,7 @@
   "contact_title": "Bog'lanish uchun telefon raqamlarimiz:",
   "tel_1": "Tel: +998957724444",
   "tel_2": "Tel: +998996440101",
+
   "form": {
     "first_name": "Ismingiz",
     "last_name": "Familiyangiz",
@@ -59,13 +60,20 @@
       "text": "Tabiiyllik, halollik va innovatsiyaga asoslangan Aqvo brendi har bir mahsulotida an'anaviy ta'mni zamonaviy dizayn bilan birlashtiradi. Mijozlar ishonchi — bizning eng katta boyligimiz."
     },
 
-     "sert": {
-    "title": "BIZNING SERTIFIKATLARIMIZ"
+    "sert": {
+      "title": "BIZNING SERTIFIKATLARIMIZ"
+    }
   },
 
-    "footer": {
+  "footer": {
     "text": "Izlagan mahsulotingizni topdingizmi? Biz bilan bog'laning!",
     "copy": "© 2024 AQVO. Barcha huquqlar himoyalangan."
-  }
+  },
+
+  "middle": {
+    "title_1": "SIZNING AQVO BILAN",
+    "title_2": "LAHZALARINGIZ",
+    "instagram": "Bizning Instagram",
+    "telegram": "Bizning Telegram"
   }
 }
