@@ -9,7 +9,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 
 import Footer from "./Components/Footer/Footer.jsx";
 import Sertifikat from "./Components/Sertifikat/Sertifikat.jsx";
-import Middle from '../src/Components/Middle/middle.jsx'
+import Middle from './Components/Middle/Middle.jsx'
 
 
 const App = () => {

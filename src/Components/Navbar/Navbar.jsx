@@ -44,6 +44,8 @@ const Navbar = () => {
           <button className="nav_burger" onClick={() => setMenuOpen((p) => !p)}>
             {menuOpen ? <FiX size={22} /> : <FiMenu size={22} />}
           </button>
+
+      
         </div>
 
       </div>
