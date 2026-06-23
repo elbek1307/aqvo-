@@ -47,7 +47,7 @@ const Middle = () => {
           <img className="p1" src={p4} alt="alt" />
           <img className="p1" src={p5} alt="alt" />
           <img className="p1" src={p6} alt="alt" />
-          {/* again */}
+       
           <img className="p1" src={p1} alt="alt" />
           <img className="p1" src={p2} alt="alt" />
           <img className="p1" src={p3} alt="alt" />
@@ -57,7 +57,7 @@ const Middle = () => {
         </div>
       </div>
 
-      {/* another mini products */}
+   
       <div className="mini-products">
         <div className="mini-products-track">
           <img className="m1" src={m1} alt="alt" />
@@ -69,7 +69,7 @@ const Middle = () => {
           <img className="m1" src={m7} alt="alt" />
           <img className="m1" src={m8} alt="alt" />
           <img className="m1" src={m9} alt="alt" />
-          {/* again */}
+       
           <img className="m1" src={m1} alt="alt" />
           <img className="m1" src={m2} alt="alt" />
           <img className="m1" src={m3} alt="alt" />
