@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Main/Hero/Hero";
+import Hero from "./Components/Hero/Hero.jsx"
 import Sect_foo_farhod from "./Components/Sect_foo_farhod/Sect_foo_farhod";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Footer from "./Components/Footer/Footer.jsx";

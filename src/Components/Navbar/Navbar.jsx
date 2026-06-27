@@ -66,7 +66,7 @@ const Navbar = () => {
               />
             </div>
 
-          \
+          
             {langOpen && (
               <ul className="nav_lang_options">
                 {languages.map((lang) => (
