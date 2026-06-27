@@ -11,7 +11,7 @@ import bg3 from "./bg3.jpg";
 const Slider = SliderPackage.default ? SliderPackage.default : SliderPackage;
 
 const AboutUs = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const settings = {
     dots: true,
